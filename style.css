@@ -222,7 +222,6 @@ footer {
   font-weight: 600;
 }
 
-/* Responsive */
 @media (max-width: 600px) {
   .logo {
     font-weight: 700;
@@ -231,9 +230,12 @@ footer {
     padding-left: 0;
     margin-left: 0;
     text-indent: 0;
-    white-space: nowrap; /* keeps the logo on one line */
+    white-space: nowrap;
+    overflow: visible !important;
+    text-overflow: clip !important;
   }
 }
+
 
 @media (max-width: 600px) {
   header {
