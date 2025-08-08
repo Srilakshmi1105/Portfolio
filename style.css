@@ -99,11 +99,12 @@ header {
 
 .hero-content {
   display: flex;
-  flex-direction: column;  /* Stack vertically */
-  align-items: center;     /* Center horizontally */
-  gap: 1rem;               /* Space between photo and text */
-  text-align: center;      /* Center text below photo */
+  flex-direction: column !important;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
 }
+
 
 
 .hero-photo {
